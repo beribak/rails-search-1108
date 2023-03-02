@@ -1,7 +1,9 @@
 {
   "name": "app",
   "private": "true",
-  "dependencies": {
+
+  "scripts": { "build": "webpack --config webpack.config.js" },
+    "dependencies": {
     "@hotwired/stimulus": "^3.2.1",
     "@hotwired/turbo-rails": "^7.3.0",
     "@popperjs/core": "^2.11.6",
